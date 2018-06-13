@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+  <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+  <div class="container">
+      <div class= "searcher">
+        <input type="text" name="" value="" id="queryArtist" placeholder="Search Your Favorite Artist">
+      </div>
+      <div id="search-option-list">
+
+      </div>
+      
+      <div id ="musicList">
+      </div>
+      <div class="playerControls">
+        <i class="fas fa-step-forward"  id="forward" onclick="jukeBox.nextSong()"></i>
+
+        <!-- <i class="fas fa-pause"  id="pause" onclick="jukeBox.pause()"></i> -->
+        <i class="fas fa-play"  id="play" onclick="jukeBox.play_pause()"></i>
+        <i class="fas fa-step-backward"  id="back" onclick="jukeBox.previousSong()"></i>
+        <!-- <i class="fas fa-random"  id="shuffle" onclick="jukeBox.shuffle()"></i> -->
+     </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="./js/index.js"></script>
+</body>
+</html>
