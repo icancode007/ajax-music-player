@@ -1,4 +1,5 @@
-#Music Player WebApp
+##Music Player WebApp
+
 This app uses ajax calls to grab data from the Napster api, It Dynamically adds music cards to the DOM that are playable with click events. It also allows to traverse the playlist array either foward or backwards. 
 ![Preview](feats/sample.png)
 
